@@ -6,7 +6,7 @@ const styles = {
     flexDirection: "row",
     alignItems: "center",
     justifyContent: "space-between",
-    margin: "0 2rem",
+    margin: "0 4rem",
     backgroundColor: "rgba(248, 248, 248, 0.56)",
   },
   mainNav: {
