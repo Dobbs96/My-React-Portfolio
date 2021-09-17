@@ -23,7 +23,7 @@ const styles = {
 
 export default function Profile() {
   return (
-    <div id="about-me" style={styles.profile}>
+    <div style={styles.profile}>
       <div style={styles.aboutMe}>
         <p>
           As someone who is constantly trying to push to new limits; I have to
@@ -41,8 +41,8 @@ export default function Profile() {
           problems in the way.
         </p>
       </div>
-      <div className="sideprofile">
-        <img style={styles.image} src={self} alt="" />
+      <div>
+        <img style={styles.image} src={self} alt="selfie" />
       </div>
     </div>
   );
