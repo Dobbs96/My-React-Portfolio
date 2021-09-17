@@ -33,11 +33,13 @@ const styles = {
 export default function Projects({ mrProjects }) {
   return (
     <>
-      <h2 style={styles.heading}>My Work</h2>
+      <h2 style={styles.heading} id="work">
+        My Work
+      </h2>
       <div style={styles.container}>
         {mrProjects.map((project, idx) => (
           <div key={idx} style={styles.project}>
-            <a href={project.link}>
+            <a href={project.link} target="_blank" rel="noreferrer">
               <img style={styles.img} src={project.screenShot} alt="project" />
             </a>
             <p style={styles.text}>{project.about}</p>

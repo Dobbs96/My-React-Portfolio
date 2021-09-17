@@ -46,7 +46,9 @@ const styles = {
 export default function FooterNav() {
   return (
     <div>
-      <h2 style={styles.heading}>Contact Me</h2>
+      <h2 style={styles.heading} id="main-footer">
+        Contact Me
+      </h2>
       <div style={styles.contacts}>
         <p style={styles.text}>{contactInfo.phone}</p>
         <div>
