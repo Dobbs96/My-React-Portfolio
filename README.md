@@ -4,7 +4,7 @@
 
 Creating an portfolio with react. This portfolio is create only with my knowledge of react, javascript and html. CSS is changed a little to fit for react.
 
-Check out the [live app](_Insert here_)
+Check out the [live app](https://dobbs96.github.io/HW-20-React-Portfolio/)
 
 ## Licensing
 
@@ -14,16 +14,11 @@ For more information please check [GitHub Licensing](https://docs.github.com/en/
 
 ## Table of Contents
 
-- [Tests](#tests)
+
 - [Usage](#usage)
 - [Resources](#resources)
 - [Questions](#questions)
 
-## Tests
-
-![Quick show of app](_insert gif_)
-
-[Full video demo](_Insert here_)
 
 ## Usage
 
