@@ -16,10 +16,10 @@ const styles = {
     margin: "2rem 4rem",
   },
   project: {
-    margin: ".5rem",
     backgroundColor: "rgba(248, 248, 248, 0.55)",
     padding: "1rem",
     textAlign: "center",
+    margin: "auto",
   },
   img: {
     width: "70%",

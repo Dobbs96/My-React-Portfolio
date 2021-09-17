@@ -2,28 +2,13 @@ import Header from "./components/Header";
 import Profile from "./components/Profile";
 import Projects from "./components/Projects";
 import FooterNav from "./components/FooterNav";
-import Footer from "./components/Footer";
 
 // images to import
 import bucket from "./images/bucket.png";
 import workDayScheduler from "./images/workDaySceduler.png";
 import bestOfMe from "./images/bestOfMe.png";
-import gitHubIcon from "./images/GitHub.png";
-import linkedInIcon from "./images/LinkedIn.png";
-import resumeIcon from "./images/Resume.png";
-import resumeFile from "./assets/Dobbs-Resume.pdf";
-//
 
-const contactInfo = {
-  phone: "347.557.3898",
-  email: "dobbs282@gmail.com",
-  gitHub: { link: "https://github.com/Dobbs96", icon: gitHubIcon },
-  linkedIn: {
-    link: "https://www.linkedin.com/in/james-dobbs-63bb8016b/",
-    icon: linkedInIcon,
-  },
-  resume: { link: resumeFile, icon: resumeIcon },
-};
+//
 
 const mrProjects = [
   {
@@ -55,7 +40,6 @@ function App() {
       <Profile />
       <Projects mrProjects={mrProjects} />
       <FooterNav />
-      <Footer />
     </>
   );
 }
