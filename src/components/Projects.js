@@ -3,7 +3,7 @@ import React from "react";
 const styles = {
   heading: {
     fontWeight: "bold",
-    fontSize: "2rem",
+    fontSize: "3rem",
     textAlign: "center",
     color: "#555",
   },
@@ -27,6 +27,15 @@ const styles = {
   text: {
     fontWeight: "bold",
     fontSize: "1.2rem",
+    background: "rgba(235, 235, 235, 0.55)",
+  },
+  h2: {
+    color: "rgb(26,31,51)",
+    fontSize: "2.2rem",
+    background: "rgba(235, 235, 235, 0.55)",
+    width: "25%",
+    margin: "auto",
+    marginBottom: "1rem",
   },
 };
 
@@ -39,6 +48,7 @@ export default function Projects({ mrProjects }) {
       <div style={styles.container}>
         {mrProjects.map((project, idx) => (
           <div key={idx} style={styles.project}>
+            <h2 style={styles.h2}>{project.name}</h2>
             <a href={project.link} target="_blank" rel="noreferrer">
               <img style={styles.img} src={project.screenShot} alt="project" />
             </a>
