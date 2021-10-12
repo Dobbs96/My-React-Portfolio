@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.js": "/My-React-Portfolio/static/js/main.dd164333.chunk.js",
+    "main.js.map": "/My-React-Portfolio/static/js/main.dd164333.chunk.js.map",
+    "runtime-main.js": "/My-React-Portfolio/static/js/runtime-main.6641e55d.js",
+    "runtime-main.js.map": "/My-React-Portfolio/static/js/runtime-main.6641e55d.js.map",
+    "static/js/2.8fad6e37.chunk.js": "/My-React-Portfolio/static/js/2.8fad6e37.chunk.js",
+    "static/js/2.8fad6e37.chunk.js.map": "/My-React-Portfolio/static/js/2.8fad6e37.chunk.js.map",
+    "index.html": "/My-React-Portfolio/index.html",
+    "static/js/2.8fad6e37.chunk.js.LICENSE.txt": "/My-React-Portfolio/static/js/2.8fad6e37.chunk.js.LICENSE.txt",
+    "static/media/Dobbs-Resume.39e2cd98.pdf": "/My-React-Portfolio/static/media/Dobbs-Resume.39e2cd98.pdf",
+    "static/media/Profile_Me.a1b4fee8.JPG": "/My-React-Portfolio/static/media/Profile_Me.a1b4fee8.JPG",
+    "static/media/bestOfMe.553379b6.png": "/My-React-Portfolio/static/media/bestOfMe.553379b6.png",
+    "static/media/bucket.308d11ce.png": "/My-React-Portfolio/static/media/bucket.308d11ce.png",
+    "static/media/digiArt.7585c556.png": "/My-React-Portfolio/static/media/digiArt.7585c556.png",
+    "static/media/workDaySceduler.a7b3a5f4.png": "/My-React-Portfolio/static/media/workDaySceduler.a7b3a5f4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6641e55d.js",
+    "static/js/2.8fad6e37.chunk.js",
+    "static/js/main.dd164333.chunk.js"
+  ]
+}
